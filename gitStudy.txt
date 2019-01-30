@@ -1,0 +1,9 @@
+一、如何推送本地代码到GitHub网站
+1.先在GitHub上创建git仓库
+2.然后在本地的仓库下运行命令：git romote add origin git@github:281234086/learngit.git（281234086为你GitHub的用户名）
+3.把本地仓库的内容推送到远程仓库上git push -u origin master(加-u是为了将本地的master分支内容推到远程的master分支，
+而且把本地的master与远程的master分支连接起来)
+二、先创建远程库myproject，然后从远程克隆到本地
+1.在远程库使用命令git clone 克隆一个本地库
+（git clone git@github.com:281234086/myproject.git）
+
